@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Aurshon	include/core/pub.h	/^typedef struct Aurshon{                             $/;"	s
+Aurshon_protocol	include/core/pub.h	/^}__attribute__((packed))Aurshon_protocol;           $/;"	t	typeref:struct:Aurshon
+Bl_xy	include/common/xy_types.h	25;"	d
+C8_xy	include/common/xy_types.h	/^typedef char                 C8_xy;$/;"	t
+CMDSIZE	src/sub/demo.c	14;"	d	file:
+Command	src/sub/demo.c	/^}Command;$/;"	t	typeref:struct:Command_t	file:
+Command_t	src/sub/demo.c	/^typedef struct Command_t$/;"	s	file:
+Content_xy	include/core/pub.h	/^}__attribute__((packed))Content_xy;$/;"	t	typeref:struct:X
+D64_xy	include/common/xy_types.h	/^typedef double               D64_xy;$/;"	t
+EVENT1	include/core/pub.h	/^    EVENT1 = 0x01, \/\/和to匹配$/;"	e	enum:__anon1
+EVENT2	include/core/pub.h	/^    EVENT2 = 0x02,$/;"	e	enum:__anon1
+Entry	src/core/event.c	/^Match_xy Entry[] = $/;"	v
+Entry	src/sub/demo.c	/^Command Entry[] = $/;"	v
+EventCmd_xy	include/core/pub.h	/^}EventCmd_xy;$/;"	t	typeref:enum:__anon1
+EventHandingFunc1	src/core/event.c	/^I32_xy EventHandingFunc1(Content_xy)$/;"	f
+EventHandingFunc2	src/core/event.c	/^I32_xy EventHandingFunc2(Content_xy)$/;"	f
+F32_xy	include/common/xy_types.h	/^typedef float                F32_xy;$/;"	t
+I32_xy	include/common/xy_types.h	/^typedef int                  I32_xy;$/;"	t
+Ll64_xy	include/common/xy_types.h	/^typedef long long            Ll64_xy;$/;"	t
+Match	include/core/pub.h	/^typedef struct Match                                $/;"	s
+Match_xy	include/core/pub.h	/^}Match_xy;                                          $/;"	t	typeref:struct:Match
+PtrEventHanding_xy	include/core/pub.h	/^typedef I32_xy (*PtrEventHanding_xy)(Content_xy);$/;"	t
+S16_xy	include/common/xy_types.h	/^typedef short                S16_xy;$/;"	t
+Uc8_xy	include/common/xy_types.h	/^typedef unsigned char        Uc8_xy;$/;"	t
+Ui32_xy	include/common/xy_types.h	/^typedef unsigned int         Ui32_xy;$/;"	t
+Ull_64_xy	include/common/xy_types.h	/^typedef unsigned long long   Ull_64_xy;$/;"	t
+Us16_xy	include/common/xy_types.h	/^typedef unsigned short       Us16_xy;$/;"	t
+Vd_xy	include/common/xy_types.h	24;"	d
+X	include/core/pub.h	/^typedef struct X{$/;"	s
+Xpdebug	include/common/debug.h	25;"	d
+Xperror	include/common/debug.h	19;"	d
+Xpinfo	include/common/debug.h	16;"	d
+Xpwarn	include/common/debug.h	22;"	d
+XsemP	src/common/sem.c	/^I32_xy XsemP(I32_xy semId)$/;"	f
+XsemV	src/common/sem.c	/^I32_xy XsemV(I32_xy semId)$/;"	f
+Xsemdel	src/common/sem.c	/^Vd_xy Xsemdel(I32_xy semId)$/;"	f
+Xsemget	src/common/sem.c	/^I32_xy Xsemget(key_t key)$/;"	f
+Xseminit	src/common/sem.c	/^I32_xy Xseminit(I32_xy semId)$/;"	f
+__DEBUG__H__	include/common/debug.h	13;"	d
+__PUB__H__	include/core/pub.h	13;"	d
+__SEM__H__	include/common/sem.h	13;"	d
+__SHM__H__	include/core/shm.h	13;"	d
+__XY_TYPES__H__	include/common/xy_types.h	13;"	d
+cmd	include/core/pub.h	/^    I32_xy cmd;                                     $/;"	m	struct:Match
+cmd	include/core/pub.h	/^    Uc8_xy cmd;$/;"	m	struct:X
+cmd	src/sub/demo.c	/^    const char *cmd;    \/\/出发事件的条件，或信令$/;"	m	struct:Command_t	file:
+data	include/core/pub.h	/^    Content_xy data;                                  $/;"	m	struct:Aurshon
+from	include/core/pub.h	/^    Uc8_xy from;                                    $/;"	m	struct:Aurshon
+from	include/core/pub.h	/^    Uc8_xy from;$/;"	m	struct:X
+func	include/core/pub.h	/^    PtrEventHanding_xy func;        \/\/事件处理函数  $/;"	m	struct:Match
+func	src/sub/demo.c	/^    ptrFun func;        \/\/事件处理函数$/;"	m	struct:Command_t	file:
+head	include/core/pub.h	/^    Uc8_xy head;     \/\/head为0x1A                            $/;"	m	struct:Aurshon
+head	include/core/pub.h	/^    Uc8_xy head;     \/\/head为0x2A$/;"	m	struct:X
+main	src/common/debug_test.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/core/shm.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/core/socket.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/sub/demo.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/sub/sub1.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/sub/sub2.c	/^int main(int argc, char* argv[])$/;"	f
+main	src/sub/sub3.c	/^int main(int argc, char* argv[])$/;"	f
+ptrFun	src/sub/demo.c	/^typedef int (*ptrFun)(int num);$/;"	t	file:
+semun	include/common/sem.h	/^union semun { $/;"	u
+test1	src/sub/demo.c	/^int test1(int num)$/;"	f
+test2	src/sub/demo.c	/^int test2(int num)$/;"	f
+to	include/core/pub.h	/^    Uc8_xy to;   \/\/to的值和EventCmd_xy里的值匹配                                  $/;"	m	struct:Aurshon
+to	include/core/pub.h	/^    Uc8_xy to;$/;"	m	struct:X
+val	include/common/sem.h	/^    int              val;    \/* Value for SETVAL *\/$/;"	m	union:semun
